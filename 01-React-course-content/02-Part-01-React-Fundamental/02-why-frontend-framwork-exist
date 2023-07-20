@@ -1,0 +1,63 @@
+section-02 topic-02
+Why frontend framwork exist.
+Why not simply use vanilla javascript to builb our apps.
+
+The Rise of Single-Page Application or Frontend framworks.
+
+1. before around 2010 all the website were alwanys rendered on the server so called
+   Server side rendering
+
+2. so in servering side rendering a website is basically assembled on the backend on a web server
+   based on data and templets , the resulting HTML , CSS and Javascript code is then sent to the
+   client side, so the browser that requested the page.
+
+3. The browser the simply take this code and basically paints it into the screen.
+
+4. Now the Javascript that used to be included in these websites was initially only
+   to add some simple dynamicts to the page like simple animation , hover effectss and other
+   stuff like that. And usually a very popular library at the time called jQuery was used
+   for this because it made Javascipt work the exact same way across all browsers back then.
+
+5. however, over time developer started writing more and more Javascript code to be executed
+   by the browser until at some point these became fully fledged web applications, which then led
+   on the rise of so called Single page Applications.
+
+6. So these are the webpages that rendered on the client side not on the server. so in client
+   side renderning basically the work of rendering a web page is shifted from the server to the
+   client. Now we don't call these web pages anymore , but web applications.
+
+7. A web application still need data, which usually comes from the backend in the form of an API,
+   So the application consumes this API data and renders a screen for each view of the application.
+
+8. And these single page applications essentially feel as If you were using a native desktop or phone
+   applicaton, you can click on links submit forms without the page ever reloading.So you technically always
+   on the same page and therefore the name single page app.
+
+9. Server side renderning is actually , So it's slowly modren again , driven by frameworks
+   that are build on top of modern client side renderning frameworks such as Next.js , Remix,
+   and many more.
+
+10. But in either case , we still need to learn how to build single page applications , of course
+    but do we want to do so with vanilla javascript. Actually we do not do that because there are
+    actually several problems with using vanilla javascipt.
+
+11. Front-end web application are all about (Handling data + displaying data in the user interface).
+    So it recieve data, changes the data as the user uses the app and it always displays the current data.
+
+12. most important thing in SPA(Single Page Application) website is to keep the user interface
+    in sync with the data, or in other words, is to make sure that the UI always displays the currect state of the data. it's very hard problem to solved. and to understand why that is.
+
+13. Why it's impossible to sync huge amount of data in the app with vanilla javasctipt. So
+    in real world the pieces of the data we called state.
+
+14. Problem with Javasctipt and jQuery
+
+    1. it requires alots of direct DOM manipulation and traversing (imperative) 👉 "Spaghetti code".
+       Manual element selection , class toggling , DOM traversing and even manipulatin of text and CSS
+       Styles.
+       And this Guaranteed to become an absolute nightmare in complex app like Airbnb because our code
+       would be extemely complex and really hard to understand and we would probably just end up with
+       hyge mess of entangled spaghetti code.
+
+    2. in vanilla JS apps state such as simple text or numbers are oftentimes simply stored in the
+       DOM. So right in the HTML elements themselves rather than in a central place in the application.

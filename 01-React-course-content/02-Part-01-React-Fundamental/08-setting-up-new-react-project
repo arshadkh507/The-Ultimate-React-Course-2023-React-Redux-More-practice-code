@@ -1,0 +1,33 @@
+Section-02 Setting up New React Project The Options
+
+1. create-react-app
+2. vite
+
+3. Create-React-App: Complete starter kit for react application.
+
+- Everything is already configure: ESLint , Prettier , Jest , etc.
+- So an app created with create-react-app automatically comes with a development
+  server, Webpack , module bundling and of course important developer tools which include
+  a linter like ESlint , a code formater like prettier , a testing library like jest and
+  of course Babel for enabling the latest Javascipt.
+- uses some slow and kind of outdated technology under the hood and in particular the webpack bundler.
+- the team behind create-react-app stop innovating it and the recommendation is don't use create-react-app
+  for real world project anymore.
+
+2. Vite: modern build tool that contains a template for setting up react application
+
+- Need to manually set up ESLint (and other).
+- Extremely fast hot module replacement (HMR) and bundling.
+- use for modern real world apps
+
+What aboout react frameworks?
+Next.js  
+Remix
+
+- The react team now advises to use a react framework for new project.
+  having solution like routing ,data fetching and server side rendering.
+- So react framewroks are framwork build on top of react library to make it even easier
+  to build apps then just vanilla react itself.
+
+  For learning it's not necessary to use these react framworks but for production or real world
+  project it's beneficial.

@@ -1,0 +1,30 @@
+## Section-05 03-Before Start coding debugging
+
+- if page does not update when you do some changes and don't
+  panic but try out some solution
+
+- First: Make Sure That the Application is actullay running
+- ctrl + c to stop runnning a running appliction and then
+  restart you application that can be solved you first problem.
+
+- Secondly: Hard Reload the browser is one of the solution
+- Tip: alway open the termianl all the time. and same for
+  the dev tool in the browser.
+
+- create react app actually has some internal thing which will
+  automatically display errors right here.
+  like: Return more than one element.. if error then take the error message and search in
+  google or chatgpt.
+
+- Another important tip is to always work with Eslint
+  So Eslint enabled by default.
+  also it show the problems in the code show in problem tab
+  in the terminal.
+
+- When you have a yellow line on the varibale we should check
+  what's gooing on there. sometime prettier extension stop working then it's
+  good idea to goto output tab then select one of the process that is running in
+  vs code for example our saying prettier.
+  same for Eslint also.
+
+-

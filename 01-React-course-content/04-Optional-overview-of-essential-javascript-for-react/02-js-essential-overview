@@ -1,0 +1,21 @@
+## Section-03 Overview first then this Tutorial.
+
+- React is a Javascript library and therefore you will need a good understanding
+  of some essential javascript fundamentals.
+- Topics to review
+- Destructuring , spread operator , template literals , ternaries.
+- Promesis , Async/Await
+- Array Methods: Map , filter , reduce , sort
+- Immutable Arrays.
+
+## Tutorial-02 Destructuring: Unpacking values from objects or arrays into separate variables.
+
+Destructuring in JavaScript is a way to extract values from objects or arrays into separate variables using a concise syntax. It allows you to unpack values and assign them to variables in a single step.
+
+## Tut-03 Rest operator (...): Collecting multiple values into an array
+
+Rest operator (...) is used in function parameters or array destructuring to gather the remaining elements into an array. It collects multiple values and puts them into an array, allowing you to work with a variable number of arguments or elements.
+
+## Tut-03 Spread operator (...): Spreading the elements of an array or object into another arr or obj.
+
+Rest operator (...) is used in function parameters or array destructuring to gather the remaining elements into an array. It collects multiple values and puts them into an array, allowing you to work with a variable number of arguments or elements.

@@ -1,0 +1,19 @@
+## Section-05 04-Component as Building Block
+
+- Components are most fundamental concept in react
+- Because React application entirely made of components
+- Components are the Building blocks of any UI in React.
+
+- Basically React does is to take components and draw them onto a web page or UI.
+- React render a view for each component and all these view togather make up the UI.
+- component a piece of UI.
+
+- One key property of each component is that each component has it's own data,
+  javascipt logic and appearance.
+- each component describe what it does how it look like.
+
+- Component name should be start with uppercase character
+- Component ca be reused , nested inside each other , and pass data b/w them.
+
+- Components Tree: shows how the component nested and how they relate one another.
+  we can clearly see the relationship b/w the components.

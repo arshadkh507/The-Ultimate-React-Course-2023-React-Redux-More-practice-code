@@ -1,0 +1,54 @@
+## Section-05 05-Create and Reusing Component and JSX
+
+- Component should return some morkup usually in form of JSX.
+- But we can return nothing like return null.
+
+## JSX:
+
+Declarative Syntax to describe what components look
+like and how they work.
+Component must return a block of JSX
+
+- Extension of Javascript that allows us to embed Javascript,
+  CSS , and React component into HTML
+
+- If React is a Javascript framework, then how will it understand
+  this HTML looking code? Well JSX is just an extension of Javascript
+  which means that there is a simple way of converting JSX to Javascript.
+  This is done by a tool called Babel. which was automatically included in our
+  application by create-react-app.
+
+  - This conversion is necessary because browsers does not understand JSX
+    They understand HTML.
+
+- We could use React without JSX , but doesn't look like a lot
+  of fun, It also make the code really hard to read and understand.
+
+## JSX is Declarative
+
+Imparative:
+
+- When we try UIs using vanilla javascript , we will by default use
+  an imperative approach.
+  This mean that we manually select elements, traverse the DOM and attach
+  event handlers to element.
+  👉 Manual DOM element sections and DOM traversing.
+  👉 Step-by-step DOM mutations until we reach the desired UI
+  👉 We tell the browser how to do things.
+
+  Doing this in complex app is completely unfeasible for all the reasons
+  that we have learned.
+  That's the reasons why framewroks like React exist in the firts place
+  and it's why React chose a declative approach to building user interfaces.
+
+Declarative:
+
+- Describe what the UI should look like using JSX, based on current data.
+  So that data that's currently in the component and all that happens without
+  any DOM manipulation at all.
+
+- So there are no query selector , no add event listeners , no classlist,
+  no text content properties.
+
+- in declarative approach we tell React What we want to achieve But not
+  how to achieve step by step.

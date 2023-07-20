@@ -1,0 +1,23 @@
+Section-02 5-Setting up our development enviroment
+
+---
+
+1. Download Nodejs latest stable verion
+2. Download IDE or Code Editor like VS Code (my prefrence)
+
+3. Download extensions in the VS Code
+
+1) ESLint --> automatically find errors in the code
+2) Prettier Code Formatter
+3) One Monokai Theme (Color Theme)
+4) Material Icon Theme (Icon Theme)
+
+4. Setting in VS Code
+
+1) Auto Save Setting -> onFocusChange
+2) Default format -> Prettier Code Formatter
+3) Format on Save
+4) ESllint run - ontype or onsave
+
+Let's now to finish , let's just set up some snippets.
+Snippets are basically some piece of predefined code that we can use to greatly speed up Development

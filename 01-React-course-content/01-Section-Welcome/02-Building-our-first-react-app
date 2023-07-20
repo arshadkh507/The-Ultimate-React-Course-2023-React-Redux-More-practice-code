@@ -1,0 +1,31 @@
+Section-01 Welcome
+Buiding our first react app have subtitles file.
+
+Now before learning anything about react and even before setting up
+our development enviroment , let's build our very first small React App!.
+
+It is a tiny app But you will already meet many of the fundamental ingredients
+all react applications are build upon. so this is going to be alot of fun already
+add so Let's get started.
+
+And remember how i said that we don't even need to setup ou development enviroment
+in Online Code editor called codesandbox.io
+and right now you can go to codesandbox.io and there they will ask you to try this app
+for free, but you can do it even more easily which is.
+
+--> open new tab write react.new and enter it will automatically create new codesandbox for you.
+--> let's build our first component which a piece of user interface (UI)
+
+-in react these fuction return something called JSX which is syntax look like HTML .
+-which will basically descibe what we can see on the screen. so just like HTML
+-when we fetch data from any api and we want to display it in user interface then we use
+a concept called state. State is the most fundatament concept of react. So Whenever we need to change
+in the user interface, we change the state. so we update something called the state.
+
+-JSX is just like HTML but we can add some javascript to it when we want to use javascript in it
+then we can enter a javascript mode by using curly braces {}.
+
+-In react we divided User Interface something called Components.
+Convention in react for component name should be in uppercase. for example: function Message () {}. 
+
+

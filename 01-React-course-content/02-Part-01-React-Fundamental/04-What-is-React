@@ -1,0 +1,26 @@
+section-02 04-What is React
+
+## React is a javasctipt liabrary for building user Interfaces.
+
+React us extremely Popular , Declarative , Component-Based , state-driven Javascript
+Liabrary for building user interfaces.Created by Facebook
+
+1.  Components Based Desing . React is all about component. Component is all about building
+    blocks of user interfaces in React. Such as buttons , input fields , search box and so on.
+    And in fact, basically all React does is to take components and draw then on a web page.
+
+- Since we build complex UIs by combining multiple components, Each components must have
+  all the informatin about what it looks like.
+
+- What each component looks like and how it works we use a special declarative syntax called JSX.
+- Declarative: means we telling React what a component should look like, based on current data/state.
+  React is absraction away from the DOM: we never touch the DOM. So we simply tell react what we want
+  to happen when some data changes but how to do it.
+
+- JSX: a syntax that combines HTML , CSS , Javasript as well as referencing other components
+
+2. State: if we never touch the DOM , then how does React Update the UI?
+   Well , that's where the concept of state comes into play.
+
+- Main goal of React is to always keep the UI in sync with data. And from now on, Let's
+  actually call that data state.

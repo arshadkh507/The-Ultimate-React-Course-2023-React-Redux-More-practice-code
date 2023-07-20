@@ -1,0 +1,9 @@
+got to react.dev then learn tab then click on the link at the Try React Locally section
+download this HTML page.
+
+then make a folder with whatever name you what
+and add two scripts before body close tag at the link Download this HTML page.
+Two libraries these scripts are
+first one is core react library.
+2nd one is the react dom is basically rendering layer which can render react
+components into the DOM.

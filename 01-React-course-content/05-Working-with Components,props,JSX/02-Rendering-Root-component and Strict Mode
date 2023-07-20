@@ -1,0 +1,26 @@
+## Section-05 02-Rendering Root Component and Strict Mode
+
+- create react app
+- delete all files in src so start from scratch
+
+- then create our first file inside src folder named index.js
+  because Webpack , which is module bundler in this project
+  expects the entry point to be called index.js
+
+- import React from react
+- import ReactDOM from react-dom/client
+
+- create react app fuction or component
+  component name have to be in Pascal Case.
+  component name to be start with uppercase letter
+
+// using React Version 18
+
+- Render it now to the DOM when write the component.
+
+-React.StrictMode is a part of react
+during development React.StrictMode it will render or components
+twice in order to find certain bugs and also react will check
+if we are using outdated parts of the React API
+-Good idea to always activated React.StrictMode during develope
+react applications.
